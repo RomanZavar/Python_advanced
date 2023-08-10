@@ -10,6 +10,7 @@
 import random
 print('Отгадай число от 0 до 1000. Я буду давать подсказки у тебя 10 попыток')
 the_number = random.randint(1, 1001)
+print(the_number)
 user = int(input("Ваше предположение: "))
 attempts = 9
 while user != the_number:
@@ -23,6 +24,6 @@ while user != the_number:
     attempts -= 1
  
 if user != the_number:
-    print("Вы обречены 凸(￣ヘ￣) попытки закончились")
+    print("Глупые человеки 凸(￣ヘ￣)凸 скоро мы вас поработим")
 else:
     print("Угадал ヽ(・∀・)ﾉ")
