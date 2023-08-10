@@ -10,7 +10,6 @@
 import random
 print('Отгадай число от 0 до 1000. Я буду давать подсказки у тебя 10 попыток')
 the_number = random.randint(1, 1001)
-print(the_number)
 user = int(input("Ваше предположение: "))
 attempts = 9
 while user != the_number:
